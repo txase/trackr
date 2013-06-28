@@ -1,0 +1,28 @@
+{
+  "name": "trackr",
+  "version": "0.0.1",
+  "author": "Chase Douglas <chasedouglas@gmail.com>",
+  "description": "JavaScript tracing instrumentation tools",
+  "bin": {
+    "jstrace": "./bin/trackr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/txase/trackr.git"
+  },
+  "scripts": {
+    "prepublish": "grunt",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "seq": "*",
+    "esprima": "*",
+    "optparse": "*"
+  },
+  "devDependencies": {
+    "grunt-browserify": "*",
+    "inherits": "*"
+  },
+  "license": "MIT"
+}
